@@ -1,0 +1,72 @@
+# Linux Directory commands
+
+# 1. pwd command
+# Def : the pwd command is used to display the location of the current working directory
+# syntax : pwd
+
+# 2. mkdir command
+# Def : the mkdir command is used to create a new directory under any directory
+# syntax : mkdir <directory_name>
+
+# 3. rmdir command
+# Def : the rmdir command is used to delete a directory
+# syntax : rmdir <directory_name>
+
+# 4. ls command
+# Def : the ls command is used to display a list of content of a directory
+# syntax : ls
+
+# 5. cd command
+# Def : the cd command is used to change the current directory
+# syntax : cd <directory_name>
+
+# Linux File commands
+
+# 6. touch command
+# Def : touch command is used to create empty files we can create multiple empty files by executing it
+# syntax: touch <file1_name> <file2_name .... <fileN_name>
+
+# 7. cat command
+# Def : cat command is used for multi purpose utility in linux system.
+    It can be used to create a file, display content of file, copy the contend of one to another file
+# syntax : cat <file_name>
+           // enter file content
+    press ctrl + D key to save this file. to display content of file
+    # syntax : cat <file_name>
+
+# 8. rm command
+# Def : the command is used to remove a file
+# syntax : rm <file_name>
+
+# 9. cp command
+# Def : cp command is used to copy a file or directory
+# syntax : cp <existing_file_name> <new_file_name>
+
+# 10. mv command
+# Def : mv command is used to move a file or directory from one location to another location
+# syntax : mv <file_name> <directory_path>
+
+# Linux file content commands
+
+# 11. head command
+# Def : head command is used to display the content of the file . It display first 10 lines of file
+# syntax : head <file_name>
+
+# 12. tail command
+# Def : tail command is similar to head command. diff between the both commands is that it displays
+last 10 lines of the file content
+# syntax : tail <file_name>
+
+# 13. tac command
+# Def : tac command is the reverse of cat command, as it name specified it displays the file
+in reverse order (from last line)
+# syntax : tac <file_name>
+
+# 14. more command
+# Def : in case of large files, the more displays the screen-full output at a time
+# syntax : more <file_name>
+
+# 15. more command
+# Def : similar to more command. it also includes some extra features such as adjustments in
+width and height of the terminal. cuts the output in width of the terminal
+# syntax : less <file_name>

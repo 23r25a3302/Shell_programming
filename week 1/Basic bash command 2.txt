@@ -1,0 +1,59 @@
+# Linux User commands
+
+# 1. su command
+# Def : su command provides administrative access to another user
+$ syntax : <user_name>
+
+# 2. id command
+# Def : id command is used to display user_id (UID) and group_id (GID)
+# syntax :  id
+
+# 3. useradd command
+# Def : useradd command is used to add or remove a user on alinux server
+# syntax : useradd <user_name>
+
+# 4. passwd command
+# Def : passwd command is used to create and change the password for a user
+# syntax : passwd <user_name>
+
+# Linux file commands
+
+# 6. sort command
+# Def : sort command is used to sort file in alphabetical order
+# sort <file_name>
+
+# 7. nl command
+# Def : nl command is used to display the lines with numbering
+# syntax : nl <file_name>
+
+# 8. tr command
+# Def : tr command is used to translate the file content like from lower_case to upper_case
+# syntax : cat <file_name> | tr '[A-Z]' '[a-z]'
+
+# 9. wc command
+# Def : sc command is used to count the lines, words and characters in a file
+# syntax : wc <file_name>
+
+# 10. grep  command
+# Def : it is used for searching the content from a file.
+# syntax : cat <file_name> grep <search_word>
+
+# 11. join command
+# Def : it is a command line utility for joining the lines of 2 files on a command files/field
+# syntax : join <file_name1> <file_name2>
+
+# 12. comm command
+# Def : comm command is use dto compare the files or streams. by default it displays the columns
+    1st col : displays non-matching items from first file
+    2nd col : displays non-matching items from second file
+    3rd col : displays matching items from both files
+# syntax : comm <file_name1> file_name2>
+
+# 13. uniq command
+# Def : uniq command is used to form a sorted list in which every word will occurs only once
+# syntax : sort <file_name> | uniq
+
+# 14. cut command
+# Def : cut command is used to select a specific column of a file. the '-d' option is used as
+    a delimiter and it can be a space ( " " ) a slash ( / ). option used to specify a column no
+# syntax : cut -d 1,2 <file_name>
